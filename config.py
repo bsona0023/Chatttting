@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", 27353035))
-API_HASH = getenv("API_HASH", "cf2a75861140ceb746c7796e07cbde9e")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
-OWNER_ID = int(getenv("OWNER_ID", "5311223486"))
+OWNER_ID = int(getenv("OWNER_ID", None))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "tmm_support_chat")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "tmm_heroku_world")
@@ -37,22 +37,6 @@ IMG = [
     "https://telegra.ph//file/7bb62c8a0f399f6ee1f33.jpg",
     "https://telegra.ph//file/dd00c759805082830b6b6.jpg",
     "https://telegra.ph//file/3b996e3241cf93d102adc.jpg",
-    "https://telegra.ph//file/610cc4522c7d0f69e1eb8.jpg",
-    "https://telegra.ph//file/bc97b1e9bbe6d6db36984.jpg",
-    "https://telegra.ph//file/2ddf3521636d4b17df6dd.jpg",
-    "https://telegra.ph//file/72e4414f618111ea90a57.jpg",
-    "https://telegra.ph//file/a958417dcd966d341bfe2.jpg",
-    "https://telegra.ph//file/0afd9c2f70c6328a1e53a.jpg",
-    "https://telegra.ph//file/82ff887aad046c3bcc9a3.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/8ba64d5506c23acb67ff4.jpg",
-    "https://telegra.ph//file/a7cba6e78bb63e1b4aefb.jpg",
-    "https://telegra.ph//file/f8ba75bdbb9931cbc8229.jpg",
-    "https://telegra.ph//file/07bb5f805178ec24871d3.jpg",
-    "https://telegra.ph/file/ec0ed654f5f5cefc90f95.jpg",
-    "https://telegra.ph/file/f6aa2a3659462401cb600.jpg",
-    "https://telegra.ph/file/0c3d91bcf75524a844883.jpg",
-    "https://telegra.ph/file/6c5df27e71e074f1c7123.jpg",
     "https://telegra.ph/file/ff2ddc282fe7868e3cf73.jpg",
     "https://telegra.ph/file/6130ea9373d5f60898a52.jpg",
     "https://telegra.ph/file/45e5da1eab8f5892981ca.jpg",
