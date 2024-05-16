@@ -15,8 +15,8 @@ OWNER_USERNAME = getenv("OWNER_USERNAME", "@virat_0011")
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/463c8991912d1676cf62a.jpg",
-    "https://graph.org/file/463c8991912d1676cf62a.jpg",
+    "https://graph.org/file/1256161197a1c9e5313a0.jpg",
+    "https://graph.org/file/1256161197a1c9e5313a0.jpg",
 ]
 
 
