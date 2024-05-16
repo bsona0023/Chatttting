@@ -10,13 +10,13 @@ BOT_TOKEN = getenv("BOT_TOKEN", None)
 OWNER_ID = int(getenv("OWNER_ID", None))
 MONGO_URL = getenv("MONGO_URL", None)
 SUPPORT_GRP = getenv("SUPPORT_GRP", "FRIENDSHIP_CHAT_GROUP0")
-UPDATE_CHNL = getenv("UPDATE_CHNL", "BDGWINGAME3")
+UPDATE_CHNL = getenv("UPDATE_CHNL", "LOVE_ME_BABBY")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "@virat_0011")
 
 # Random Start Images
 IMG = [
-    "https://graph.org/file/0d8c29e1a3a7b0c820750.jpg",
-    "https://graph.org/file/0d8c29e1a3a7b0c820750.jpg",
+    "https://graph.org/file/463c8991912d1676cf62a.jpg",
+    "https://graph.org/file/463c8991912d1676cf62a.jpg",
 ]
 
 
